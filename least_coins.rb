@@ -21,7 +21,13 @@ def least_coins(cents)
     coins_used[:nickles]=nickles
     cents=cents-nickles*5
   end
-  
+  pennys=cents
+   if pennys==0 
+     coins_used[:pennies]=0
+   elsif dimes!=0
+    coins_used[:pennies]=pennies
+    cents=cents
+  end
   print coins_used
 end
 
