@@ -15,6 +15,6 @@ def least_coins(cents)
    coins_used["pennys".to_i]=1
 end
 end
-puts coins_used
+print coins_used
 end
 least_coins(45)
