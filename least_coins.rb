@@ -24,7 +24,7 @@ def least_coins(cents)
   pennies=cents
    if pennies==0 
      coins_used[:pennies]=0
-   elsif dimes!=0
+   elsif pennies!=0
     coins_used[:pennies]=pennies
     cents=cents
   end
