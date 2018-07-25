@@ -1,9 +1,9 @@
 def least_coins(cents)
- coins_used = {}
+ coins_used = {"quarters"=>"1"}
   until cents==0
    if cents>=25
     cents-=25
-    coins_used["quarters"=>"1"]
+    coins_used["quarters".to_i]=1
    elsif cents>=10
    cents-=10
    coins_used["dimes".to_i]=1
