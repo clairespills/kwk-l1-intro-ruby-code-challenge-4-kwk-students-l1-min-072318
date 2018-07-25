@@ -10,4 +10,4 @@ def least_coins(cents)
   print coins_used
 end
 
-least_coins(27)
+least_coins()
