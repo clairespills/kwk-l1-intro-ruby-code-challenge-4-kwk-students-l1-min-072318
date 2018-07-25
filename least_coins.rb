@@ -14,6 +14,7 @@ def least_coins(cents)
     coins_used[:dimes]=dimes
     cents=cents-dimes*10
   end
+  
   print coins_used
 end
 
