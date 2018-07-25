@@ -7,3 +7,4 @@ def least_coins(cents)
     coins[:quarters]=quarters
     cents=cents-quarters*25
   end
+end
